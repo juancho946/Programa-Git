@@ -1,9 +1,8 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Paulette Web - Registro</title>
+    <title>Registro Web - Paulette Studio.</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 50px; background-color: #f4f4f9; text-align: center; }
         .container { max-width: 400px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); display: inline-block; text-align: left; }
@@ -15,7 +14,7 @@
 </head>
 <body>
 <div class="container">
-    <h2>🚀 Registro Web - Paulette Studio</h2>
+    <h2>Registro Web - Paulette Studio</h2>
     <form action="ClienteServlet" method="POST">
         <div class="campo">
             <label>Red Social:</label>

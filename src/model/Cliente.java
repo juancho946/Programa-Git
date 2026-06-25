@@ -1,5 +1,4 @@
 package model;
-
 public class Cliente {
     private int idCliente;
     private String nombreRedSocial;
