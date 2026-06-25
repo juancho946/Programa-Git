@@ -1,0 +1,36 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Paulette Web - Registro</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 50px; background-color: #f4f4f9; text-align: center; }
+        .container { max-width: 400px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); display: inline-block; text-align: left; }
+        .campo { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input { width: 100%; padding: 8px; box-sizing: border-box; }
+        button { background-color: #007bff; color: white; padding: 10px; border: none; width: 100%; cursor: pointer; font-size: 16px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>🚀 Registro Web - Paulette Studio</h2>
+    <form action="ClienteServlet" method="POST">
+        <div class="campo">
+            <label>Red Social:</label>
+            <input type="text" name="txtRedSocial" required>
+        </div>
+        <div class="campo">
+            <label>Teléfono:</label>
+            <input type="number" name="txtTelefono" required>
+        </div>
+        <div class="campo">
+            <label>Ciudad:</label>
+            <input type="text" name="txtCiudad" required>
+        </div>
+        <button type="submit">Enviar al Servidor</button>
+    </form>
+</div>
+</body>
+</html>
